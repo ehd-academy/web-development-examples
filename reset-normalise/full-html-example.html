@@ -1,0 +1,208 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Reset CSS :: uncomment the following link to see how it affects the page -->
+    <!--<link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"/>-->
+
+    <!-- Normalise CSS :: uncomment the following link to see how it affects the page -->
+    <!--<link rel="stylesheet" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css"/>-->
+
+  </head>
+  <body>
+    <header class="main">
+      <h1>Some common elements used on a website</h1>
+    </header>
+    <section class="intro">
+      <p>In this page, we will learn how Reset CSS and Normalise CSS can help you when you start building a website.</p>
+      <p>To see them in action, please, uncomment one at a time on the head element.</p>
+    </section>
+    <section class="structural-tags">
+      <header>
+        <h2>Structural tags</h2>
+        <p>This is a header, usually with a heading (h1 - h6) inside</p>
+      </header>
+
+      <p>A nav tag below:</p>
+      <nav>
+        <ul>
+          <li><a href="#">This is a nav tag with links</a></li>
+          <li><a href="#">This is a nav tag with links</a></li>
+          <li><a href="#">This is a nav tag with links</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <p>Section tag with a paragraph.</p>
+        <aside>
+          <p>This is an aside tag with a paragraph.</p>
+        </aside>
+      </section>
+
+      <article>
+        <p>Article tag with a paragraph.</p>
+      </article>
+
+      <div>
+        <p>This is just a div with a paragraph.</p>
+      </div>
+
+      <footer>
+        <p>This is a footer with a paragraph.</p>
+      </footer>
+    </section>
+
+    <section class="headers">
+      <header>
+        <h1>Heading tags</h1>
+      </header>
+      <h1>h1 tag</h1>
+      <h2>h2 tag</h2>
+      <h3>h3 tag</h3>
+      <h4>h4 tag</h4>
+      <h5>h5 tag</h5>
+      <h6>h6 tag</h6>
+    </section>
+
+    <section class="text-tags">
+      <h2>Common text tags</h2>
+      <p>Paragraph tag</p>
+      <p>A paragraph with a <a href="#">link</a>.</p>
+      <hr/>
+      <p><strong>This bold text</strong> is in strong tags.</p>
+      <p>Paragraph with a <b>b</b> tag.</p>
+      <p>Paragraph with an <i>i</i> tag.</p>
+      <hr/>
+      <p>Unordered list below:</p>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+        <li>List item 6</li>
+      </ul>
+      <hr/>
+      <p>Ordered list below:</p>
+      <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+        <li>List item 6</li>
+      </ol>
+      <hr/>
+      <p>Just an image tag below (source: <a href="https://pixabay.com/en/doll-clown-sad-colorful-sweet-1636128/" target="_blank">Pixabay</a>)</p>
+      <img src="img/doll-1636128_640.jpg" alt="Doll">
+      <hr/>
+      <p>And a figure element with an image and figcaption:</p>
+      <figure>
+        <img src="img/alpaca-1672647_640.jpg" alt="Llama???"/>
+        <figcaption>Caption for this figure - Source <a href="https://pixabay.com/en/alpaca-pako-andes-animal-wool-1672647/" target="_blank">Pixabay</a></figcaption>
+      </figure>
+      <hr/>
+      <p>This is a table</p>
+      <table>
+        <tr>
+          <th>Heading 1</th>
+          <th>Heading 2</th>
+          <th>Heading 3</th>
+          <th>Heading 4</th>
+          <th>Heading 5</th>
+        </tr>
+        <tr>
+          <td>Row 1 - Col 1</td>
+          <td>Row 1 - Col 2</td>
+          <td>Row 1 - Col 3</td>
+          <td>Row 1 - Col 4</td>
+          <td>Row 1 - Col 5</td>
+        </tr>
+        <tr>
+          <td>Row 2 - Col 1</td>
+          <td>Row 2 - Col 2</td>
+          <td>Row 2 - Col 3</td>
+          <td>Row 2 - Col 4</td>
+          <td>Row 2 - Col 5</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="definition-list">
+      <h2>Definition list</h2>
+      <dl>
+        <dt>Term 1</dt>
+        <dd>Definition of term 1</dd>
+        <dt>Term 2</dt>
+        <dd>Definition of term 2</dd>
+        <dt>Term 3</dt>
+        <dd>Definition of term 3</dd>
+        <dt>Term 4</dt>
+        <dd>Definition of term 4</dd>
+        <dt>Term 5</dt>
+        <dd>Definition of term 5</dd>
+      </dl>
+    </section>
+
+    <section class="forms">
+      <h2>Form tags</h2>
+      <form action="#">
+        <fieldset>
+          <legend>Input field and textarea</legend>
+          <label for="">Input text tag</label>
+          <input type="text" name="your_text" size="35" value="" placeholder="Type some text here">
+          <label for="">Textarea below</label>
+          <textarea placeholder="Type some text in here"></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Radio buttons</legend>
+          <input id="stuff1" type="radio" name="stuff" value="1" checked/>
+          <label for="stuff1">Val 1</label>
+          <input id="stuff2" type="radio" name="stuff" value="2"/>
+          <label for="stuff2">Val 2</label>
+          <input id="stuff3" type="radio" name="stuff" value="3"/>
+          <label for="stuff3">Val 3</label>
+          <input id="stuff4" type="radio" name="stuff" value="4"/>
+          <label for="stuff4">Val 4</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Check boxes</legend>
+          <input id="thing1" type="checkbox" name="thing" value="1" checked/>
+          <label for="thing1">Val 1</label>
+          <input id="thing2" type="checkbox" name="thing" value="2"/>
+          <label for="thing2">Val 2</label>
+          <input id="thing3" type="checkbox" name="thing" value="3"/>
+          <label for="thing3">Val 3</label>
+          <input id="thing4" type="checkbox" name="thing" value="4"/>
+          <label for="thing4">Val 4</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Select tag</legend>
+
+          <label for="select">Select tag</label>
+          <select id="select">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4">Option 4</option>
+            <option value="5">Option 5</option>
+          </select>
+        </fieldset>
+
+        <button>This is a button</button>
+
+        <input type="submit" value="Submit button"/>
+
+      </form>
+    </section>
+
+  </body>
+</html>
